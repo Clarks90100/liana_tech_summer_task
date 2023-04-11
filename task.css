@@ -55,7 +55,7 @@ nav img {
 
 .hero {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5),
-    rgba(0, 0, 0, 0.5)), url(background.jpg);
+    rgba(0, 0, 0, 0.5)), url(./images/background.jpg);
     min-height: 300px;
     background-attachment: fixed;
     background-position: center;
@@ -92,21 +92,21 @@ nav img {
 
 .one {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5),
-    rgba(0, 0, 0, 0.5)), url(company.jpg);
+    rgba(0, 0, 0, 0.5)), url(./images/company.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .two {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5),
-    rgba(0, 0, 0, 0.5)), url(products.jpg);
+    rgba(0, 0, 0, 0.5)), url(./images/products.jpg);
     background-size: cover; 
     background-repeat: no-repeat;
 }
 
 .three {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5),
-    rgba(0, 0, 0, 0.5)), url(contact-us.jpg);
+    rgba(0, 0, 0, 0.5)), url(./images/contact-us.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
