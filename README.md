@@ -5,8 +5,8 @@ I mostly used Flexbox, and some elements from Bootstraps (buttons, dropdown menu
 
 Completing the task took me about 2 working days, and was quite nice to make.
 As for the extra points, I completed the following:
-> Main image with parallax
-> Clients, employess and Users sections with animated numbers
+* Main image with parallax
+* Clients, employess and Users sections with animated numbers
 
 I don't think I encountered big challenges, probably the main thing was that I didn't have the specs of the elements (as mentioned previously)
 so the design doesn't look perfectly the same.
