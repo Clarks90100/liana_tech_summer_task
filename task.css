@@ -1,0 +1,350 @@
+:root {
+    --green: #4C9825;
+    scroll-behavior: smooth
+}
+
+::selection {
+    color: white;
+    background: var(--green);
+  }
+
+/* Buttons */
+
+.btn-primary {
+    background-color: var(--green) !important;
+    color: white !important;
+    border-color: var(--green) !important;
+}
+
+.btn-primary:hover {
+    background-color: white !important;
+    color:var(--green) !important;
+}
+
+/* Top header */
+
+.dropdown-toggle {
+    background-color: white !important;
+    color: var(--green) !important;
+}
+
+.site-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 15px;
+    height: 55px;
+    padding: 10px;
+    background-color: var(--green);
+    color: white;
+}
+
+.site-header p {
+    margin-bottom: 0;
+}
+
+/* Navigation bar */
+
+nav img {
+    width: 150px;
+    padding: 15px;
+}
+
+/* Hero */
+
+.hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)), url(background.jpg);
+    min-height: 300px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero h1 {
+    margin-bottom: 19px;
+}
+
+/* Company - Products - Contact Us */
+
+.cards-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 25px;
+}
+
+.card {
+    justify-content: center;
+    text-align: center;
+    width: 270px;
+    min-height: 150px;
+    color: white;
+    border: none !important;
+}
+
+.one {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)), url(company.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.two {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)), url(products.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat;
+}
+
+.three {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)), url(contact-us.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* Numbers */
+
+.numbers-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 25px 25px 50px 25px;
+}
+
+.container-two {
+    display: flex;
+    flex-direction: row;
+}
+
+.container-two img {
+    margin-right: 15px
+}
+
+.numbers {
+    text-align: left;
+    width: 125px;
+    height: 80px;
+    font-weight: bold;
+}
+
+.value {
+    display: block;
+    font-size: 50px;
+    font-weight: bold;
+    color: black;
+}
+
+/* Latest news */
+
+.container-latest-news {
+    background-color: #F2F4F5 ;
+    padding: 25px;
+}
+
+.container-latest-news h4 {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.cards-latest-news {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: stretch;
+    gap: 30px;
+}
+
+.card-news {
+    justify-content: center;
+    text-align: center;
+    width: 250px;
+    border-radius: 4px;
+    padding: 15px;
+    border: 1px solid #F2F4F5;
+    background-color: white;
+}
+
+.card-news .title {
+    text-align: left;
+    font-size: 10px;
+    color: grey;
+}
+
+.card-news .body-text {
+    text-align: left;
+    font-size: 14px;
+    margin-bottom: 0px;
+}
+
+/* References */
+
+.container-ref {
+    padding: 25px;
+}
+
+.container-ref h4 {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.cards-container-ref {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: stretch;
+    gap: 30px;
+}
+
+.card-ref {
+    justify-content: center;
+    text-align: center;
+    width: 200px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 4px;
+    padding: 15px 0px 15px 0px;
+}
+
+.card-ref img {
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 70px;
+}
+
+.card-ref:hover {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+hr {
+    border-top: 1px solid black
+}
+
+.text {
+    padding: 0 20px;
+    font-size: 12px;
+}
+
+/* Newsletter subscription */
+
+.newsletter {
+    text-align: center;
+    padding: 15px 25px 40px 25px ;
+}
+
+.newsletter p {
+    font-size: 12px;
+}
+
+.newsletter form {
+    display: flex;
+    justify-content: center;
+}
+
+/* Footer */
+
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 40px 100px 60px 100px;
+    background-color: black;
+    color:white;
+}
+
+.liana-text h5 {
+    margin-bottom: 50px;
+}
+
+.liana-text h6 {
+    margin-bottom: 5px;
+}
+
+.liana-text p {
+    margin-bottom: 0;
+}
+
+.contact-us-btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    flex-grow: 2;
+    align-items: flex-start;
+    margin-left: 50px;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer-links .links a {
+    padding-right: 15px;
+}
+
+.some {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    gap: 10px;
+    padding-right: 10px;
+}
+
+
+/* Media Queries */
+
+@media screen and (max-width: 991px) {
+    .footer-container {
+        padding: 40px 90px 60px 90px;
+    }
+
+    .liana-text h5 {
+        margin-bottom: 30px;
+    }
+    
+    .contact-us-btn {
+        flex-grow: 0;
+        align-items: flex-start;
+    }
+    
+    .footer-links {
+        margin-top: 20px;
+    }
+    
+    .footer-links .links a {
+        padding-right: 10px;
+    }
+    
+    .some {
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 10px;
+        margin-top: 15px;
+    }
+}
+
+@media screen and (max-width: 575.98px) {
+    .footer-container {
+        padding: 40px 60px 60px 60px;
+    }
+    
+    .contact-us-btn {
+        margin-left: 0px;
+        margin-top: 15px;
+    }   
+}
